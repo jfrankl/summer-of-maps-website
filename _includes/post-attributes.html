@@ -61,8 +61,8 @@
     <strong class="attribute-section-title">Project images</strong>
     <div class="post-images">
       {% for image in page.images %}
-      <a class="post-image" href="/assets/images/{{image}}">
-        <img src="/assets/images/{{image}}" alt="{{page.title}} image">
+      <a class="post-image" href="/assets/images/{{image.image}}">
+        <img src="/assets/images/{{image.image}}" alt="{{page.title}} image">
       </a>
       {% endfor %}
     </div>

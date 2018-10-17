@@ -18,7 +18,7 @@
   {% assign projects = group.items | sort: 'date' %}
   <div class="project-grid">
     {% comment %} Loop through the items {% endcomment %}
-    {% for item in projects  %}
+    {% for item in projects %}
         {% assign author = site.data.fellows.fellows | where:"slug", item.fellow | first %}
         <div class="project-card">
           <a class="project-card-link" href="{{ item.url }}">Go to project</a>

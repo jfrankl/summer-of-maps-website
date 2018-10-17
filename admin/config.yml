@@ -17,8 +17,22 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Client", name: "client", widget: string }
       - { label: "Brief Description", name: "brief_description", widget: string, hint: "One sentence, no period at the end" }
       - { label: "SEO Description", name: "seo_description", widget: string }
-      - { label: "Category", name: "category", widget: "relation", collection: "mentors", searchFields: ["name", "slug", "year"], valueField: "slug", displayFields: ["name", "slug", "year"] }
-
+      - { label: "Fellow", name: "fellow", widget: "string" } # To use a relation widget, we need to convert fellows to a markdown-based collection
+      - label: Blogs
+        name: blogs
+        widget: list
+        required: false
+        fields:
+          - { label: "Title", name: "title", widget: string, required: true }
+          - { label: "Link", name: "link", widget: string, hint: "Full URL (https://www.azavea.com/blog/2017/08/02/how-to-calculate-location-accessibility-with-accessmod-5/)",  required: true }
+      - { label: "Featured Image", name: "featured_image", widget: image }
+      # - label: Images
+      #   name: images
+      #   widget: list
+      #   required: false
+      #   fields:
+      #     - { label: "Image", name: "image", widget: image }
+      - { label: "Project description", name: "body", widget: markdown, required: true }
   - label: "Configuration"
     name: "configuration"
     files:
