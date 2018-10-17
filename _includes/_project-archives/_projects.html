@@ -22,7 +22,7 @@
         {% assign author = site.data.fellows.fellows | where:"slug", item.fellow | first %}
         <div class="project-card">
           <a class="project-card-link" href="{{ item.url }}">Go to project</a>
-          <div class="project-card-image" style="background-image: url(/assets/images/projects/{{item.year}}/{{item.featured_image}})"></div>
+          <div class="project-card-image" style="background-image: url(/assets/images/{{item.featured_image}})"></div>
           <div class="project-card-details">
             <div class="fellow">
               <div class="fellow-image">

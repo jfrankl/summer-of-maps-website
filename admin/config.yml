@@ -5,6 +5,20 @@ backend:
 media_folder: "assets/images" # Folder where user uploaded files should go
 
 collections: # A list of collections the CMS should be able to edit
+  - name: "projects"
+    label: "Projects"
+    folder: "_projects"
+    create: true
+    fields:
+      - { label: "Published", name: "published", widget: boolean }
+      - { label: "Year", name: "year", widget: string }
+      - { label: "Featured", name: "featured", widget: boolean }
+      - { label: "Title", name: "title", widget: string }
+      - { label: "Client", name: "client", widget: string }
+      - { label: "Brief Description", name: "brief_description", widget: string, hint: "One sentence, no period at the end" }
+      - { label: "SEO Description", name: "seo_description", widget: string }
+      - { label: "Category", name: "category", widget: "relation", collection: "mentors", searchFields: ["name", "slug", "year"], valueField: "slug", displayFields: ["name", "slug", "year"] }
+
   - label: "Configuration"
     name: "configuration"
     files:
