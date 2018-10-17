@@ -21,7 +21,7 @@ blogs: # bullet list of blogs
   - title: "Summer of Maps: Evolution of GIS Attribute Data from Collection to Cleaning"
     link: "https://www.azavea.com/blog/2013/10/11/summer-of-maps-evolution-of-gis-attribute-data-from-collection-to-cleaning/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2013-pennsylvania-horticultural-society-featured.jpg"
 

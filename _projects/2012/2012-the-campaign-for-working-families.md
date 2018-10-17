@@ -16,7 +16,7 @@ fellow: "nseAbasiEsema"
 
 # No blogs related to this project
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.jpg of the images below
 featured_image: "2012-the-campaign-for-working-families-featured.jpg"
 

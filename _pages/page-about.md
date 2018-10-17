@@ -54,10 +54,10 @@ Starting in the summer, each Summer of Maps fellow manages two different nonprof
 
 ### Important Dates
 <ul>
-{% for date in site.data.dates %}
+{% for date in site.data.dates.dates %}
 <li>
   <strong>{{ date.date }}:</strong>
-  {{ date.description }}  
+  {{ date.description }}
 </li>
 {% endfor %}
 </ul>

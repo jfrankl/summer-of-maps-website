@@ -29,7 +29,7 @@ blogs: # bullet list of blogs
   - title: "Geography of Crashes in Philadelphia"
     link: "https://www.azavea.com/blog/2016/09/19/geography-crashes-philadelphia/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2016-bicycle-coalition-of-greater-philadelphia-featured.jpg"
 

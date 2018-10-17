@@ -23,7 +23,7 @@ blogs: # bullet list of blogs
   - title: "Creating a Cost Distance Surface to Measure Park Access"
     link: "https://www.azavea.com/blog/2014/09/04/creating-a-cost-distance-surface-to-measure-park-access/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2014-community-design-collaborative-featured.jpg"
 

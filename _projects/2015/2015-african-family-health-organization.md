@@ -18,7 +18,7 @@ blogs: # bullet list of blogs
   - title: "Displaying Hierarchical Geographic Data with a D3 Tree, or How to Fit 23 Maps of Philadelphia on One 'Page'"
     link: "http://www.azavea.com/blogs/atlas/2015/09/displaying-hierarchical-geographic-data-with-a-d3-tree-or-how-to-fit-23-maps-of-philadelphia-on-one-page/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2015-african-family-health-organization-featured.jpg"
 

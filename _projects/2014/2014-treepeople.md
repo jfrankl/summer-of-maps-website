@@ -18,7 +18,7 @@ blogs: # bullet list of blogs
   - title: "Summer of Maps: An 'Atypical' Approach to Analyzing Tree Canopy Cover"
     link: "https://www.azavea.com/blog/2014/08/15/summer-of-maps-an-atypical-approach-to-analyzing-tree-canopy-cover/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2014-treepeople-featured.jpg"
 

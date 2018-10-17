@@ -20,7 +20,7 @@ blogs: # bullet list of blogs
   - title: "Summer of Maps: Raster Versus Vector Visualization"
     link: "https://www.azavea.com/blog/2014/08/21/summer-of-maps-raster-versus-vector-visualization/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2014-city-harvest-featured.jpg"
 

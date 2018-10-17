@@ -25,7 +25,7 @@ blogs: # bullet list of blogs
   - title: "Creating an Interactive Visualization of Air Pollution for a Museum"
     link: "https://www.azavea.com/blog/2016/09/21/creating-an-interactive-visualization-of-air-pollution-for-a-museum/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2016-chemical-heritage-foundation-featured.jpg"
 

@@ -36,7 +36,7 @@ blogs: # bullet list of blogs
   - title: "Summer of Maps: Bike Thefts Over Time: Breaking the Cycle"
     link: "https://www.azavea.com/blog/2013/09/26/summer-of-maps-bike-thefts-over-time-breaking-the-cycle/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2013-bicycle-coalition-of-greater-philadelphia-featured.jpg"
 

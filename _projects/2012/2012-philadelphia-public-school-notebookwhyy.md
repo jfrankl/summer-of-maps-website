@@ -18,7 +18,7 @@ blogs: # bullet list of blogs
   - title: "Summer of Maps: Reviewing 3 Web Mapping Platforms and their Limitations"
     link: "https://www.azavea.com/blog/2012/08/22/summer-of-maps-reviewing-3-web-mapping-platforms-and-their-limitations/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.jpg of the images below
 featured_image: "2012-philadelphia-public-school-notebookwhyy-featured.jpg"
 

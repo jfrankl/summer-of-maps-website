@@ -18,7 +18,7 @@ blogs: # bullet list of blogs
   - title: "Investigating Refinery Flaring Pollution and Air Pollutant Concentration"
     link: "https://www.azavea.com/blog/2017/09/18/investigating-refinery-flaring-pollution/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.jpg of the images below
 featured_image: "2017-fair-tech-collective-featured.jpg"
 

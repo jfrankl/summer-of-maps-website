@@ -2,80 +2,14 @@ backend:
   name: git-gateway
   branch: develop # Branch to update (master by default)
 
-media_folder: "assets" # Folder where user uploaded files should go
+media_folder: "assets/images" # Folder where user uploaded files should go
 
 collections: # A list of collections the CMS should be able to edit
-  # - name: "categories"
-  #   label: "Categories"
-  #   folder: "_categories"
-  #   create: true
-  #   fields:
-  #     - { label: "Category Name", name: "title", widget: string }
-  #     - { label: "Icon", name: "icon", widget: string }
-  # - name: "regions"
-  #   label: "Regions"
-  #   folder: "_regions"
-  #   create: true
-  #   fields:
-  #     - { label: "Region Name", name: "title", widget: string }
-  #     - { label: "Unique ID", name: "id", widget: string }
-  # - name: "pois"
-  #   label: "Point of Interest"
-  #   folder: "_pois"
-  #   create: true
-  #   fields:
-  #     - { label: "Unique", name: "title", widget: string }
-  #     - { label: "Heading (Popup)", name: "heading", widget: string }
-  #     - { label: "Description (Popup)", name: "body", widget: markdown, buttons: ["bold", "italic", "link"], required: false }
-  #     - { label: "Icon", name: "icon", widget: string }
-  #     - { label: "Important", name: "important", widget: "boolean", default: true }
-  #     - label: "Related Parcel"
-  #       name: "related"
-  #       widget: "relation"
-  #       collection: "slides"
-  #       required: false
-  #       searchFields: ["title"]
-  #       valueField: "ltmid"
-  #       displayFields: ["title"]
-  #     - { label: "Geometry", name: "geojson", widget: geojson }
-  # - name: "slides"
-  #   label: "Slides"
-  #   folder: "_slides"
-  #   create: true
-  #   fields:
-  #     - { label: "Parcel Name", name: "title", widget: string }
-  #     - { label: "Geometry", name: "geojson", widget: geojson }
-  #     - { label: "Body", name: "body", widget: markdown, buttons: ["bold", "italic", "link"] }
-  #     - { label: "LTMID", name: "ltmid", widget: string }
-  #     - label: "Region"
-  #       name: "region"
-  #       widget: "relation"
-  #       collection: "regions"
-  #       required: true
-  #       searchFields: ["title"]
-  #       valueField: "id"
-  #       displayFields: ["title"]
-  #     - { label: "Size", name: "size", widget: number, required: false }
-  #     - { label: "Image", name: "image", widget: image, required: false }
-  #     - { label: "Related URL", name: "related", widget: string, required: false }
-  #     - { label: "Google Maps", name: "googlemaps", widget: string, required: false }
-  #     - label: Categories
-  #       name: categories
-  #       widget: list
-  #       required: false
-  #       fields:
-  #         - label: "Category"
-  #           name: "category"
-  #           widget: "relation"
-  #           collection: "categories"
-  #           searchFields: ["title"]
-  #           valueField: "icon"
-  #           displayFields: ["title"]
   - label: "Configuration"
     name: "configuration"
     files:
-      - label: "Map Configuration"
-        name: "config"
+      - label: "Dates"
+        name: "dates"
         file: "_data/dates.yml"
         fields:
           - label: Dates
@@ -85,4 +19,108 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - { label: "Date", name: "date", widget: string, hint: "[Month] [YYYY]", required: true }
               - { label: "Description", name: "description", widget: string, hint: "One sentence, no period at the end",  required: true }
+      - label: "Categories"
+        name: "categories"
+        file: "_data/categories.yml"
+        fields:
+          - label: Categories
+            name: categories
+            widget: list
+            required: false
+            fields:
+              - { label: "Name", name: "name", widget: string, required: true }
+              - { label: "Slug", name: "slug", widget: string, required: true }
+      - label: "Fellows"
+        name: "fellows"
+        file: "_data/fellows.yml"
+        fields:
+          - label: Fellows
+            name: fellows
+            widget: list
+            required: false
+            fields:
+              - { label: "Name", name: "name", widget: string, required: true }
+              - { label: "Slug", name: "slug", widget: string, required: true }
+              - { label: "Year", name: "year", widget: number, required: true }
+              - { label: "Info", name: "info", widget: number, required: true }
+              - { label: "Image", name: "image", widget: image, required: true }
+      - label: "Mentors"
+        name: "mentors"
+        file: "_data/mentors.yml"
+        fields:
+          - label: Mentors
+            name: mentors
+            widget: list
+            required: false
+            fields:
+              - { label: "Full Name", name: "name", widget: string, required: true }
+              - { label: "First Name", name: "shortName", widget: string, required: true }
+              - { label: "Profile", name: "profile", widget: string, required: true, hint: "Full url from Azavea site (https://www.azavea.com/about/teammate/[...])" }
+              - { label: "Image", name: "image", widget: image, required: true }
 
+      # - name: "categories"
+      #   label: "Categories"
+      #   folder: "_categories"
+      #   create: true
+      #   fields:
+      #     - { label: "Category Name", name: "title", widget: string }
+      #     - { label: "Icon", name: "icon", widget: string }
+      # - name: "regions"
+      #   label: "Regions"
+      #   folder: "_regions"
+      #   create: true
+      #   fields:
+      #     - { label: "Region Name", name: "title", widget: string }
+      #     - { label: "Unique ID", name: "id", widget: string }
+      # - name: "pois"
+      #   label: "Point of Interest"
+      #   folder: "_pois"
+      #   create: true
+      #   fields:
+      #     - { label: "Unique", name: "title", widget: string }
+      #     - { label: "Heading (Popup)", name: "heading", widget: string }
+      #     - { label: "Description (Popup)", name: "body", widget: markdown, buttons: ["bold", "italic", "link"], required: false }
+      #     - { label: "Icon", name: "icon", widget: string }
+      #     - { label: "Important", name: "important", widget: "boolean", default: true }
+      #     - label: "Related Parcel"
+      #       name: "related"
+      #       widget: "relation"
+      #       collection: "slides"
+      #       required: false
+      #       searchFields: ["title"]
+      #       valueField: "ltmid"
+      #       displayFields: ["title"]
+      #     - { label: "Geometry", name: "geojson", widget: geojson }
+      # - name: "slides"
+      #   label: "Slides"
+      #   folder: "_slides"
+      #   create: true
+      #   fields:
+      #     - { label: "Parcel Name", name: "title", widget: string }
+      #     - { label: "Geometry", name: "geojson", widget: geojson }
+      #     - { label: "Body", name: "body", widget: markdown, buttons: ["bold", "italic", "link"] }
+      #     - { label: "LTMID", name: "ltmid", widget: string }
+      #     - label: "Region"
+      #       name: "region"
+      #       widget: "relation"
+      #       collection: "regions"
+      #       required: true
+      #       searchFields: ["title"]
+      #       valueField: "id"
+      #       displayFields: ["title"]
+      #     - { label: "Size", name: "size", widget: number, required: false }
+      #     - { label: "Image", name: "image", widget: image, required: false }
+      #     - { label: "Related URL", name: "related", widget: string, required: false }
+      #     - { label: "Google Maps", name: "googlemaps", widget: string, required: false }
+      #     - label: Categories
+      #       name: categories
+      #       widget: list
+      #       required: false
+      #       fields:
+      #         - label: "Category"
+      #           name: "category"
+      #           widget: "relation"
+      #           collection: "categories"
+      #           searchFields: ["title"]
+      #           valueField: "icon"
+      #           displayFields: ["title"]

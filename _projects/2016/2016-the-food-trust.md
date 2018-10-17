@@ -27,7 +27,7 @@ blogs: # bullet list of blogs
   - title: "Defining Communities with ESRI’s Grouping Analysis Tool"
     link: "https://www.azavea.com/blog/2016/10/12/defining-communities-grouping-analysis-tool/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2016-the-food-trust-featured.jpg"
 

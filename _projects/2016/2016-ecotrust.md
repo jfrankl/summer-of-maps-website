@@ -25,7 +25,7 @@ blogs: # bullet list of blogs
   - title: "Using NAIP Imagery and a Texture Raster to Model the Urban Forest"
     link: "https://www.azavea.com/blog/2016/09/14/multispectral-1m-naip-imagery-model-urban-forest/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2016-ecotrust-featured.jpg"
 

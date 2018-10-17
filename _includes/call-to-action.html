@@ -50,13 +50,13 @@
           <div class="c2a-image"></div>
           <div class="c2a-message">
             {% if site.fellowship.stage.nonprofit_signup %}
-              <h2>Nonprofit applications are open until {{ site.data.dates[1].date }}.</h2>
+              <h2>Nonprofit applications are open until {{ site.data.dates.dates[1].date }}.</h2>
               <a href="{{ site.nonprofit_app_link }}" class="btn btn-ghost-primary">Apply now</a>
             {% elsif site.fellowship.stage.nonprofit_review %}
               <h2>Nonprofit applications have closed.</h2>
               <h3>Check back soon for Fellowship applications.</h3>
             {% elsif site.fellowship.stage.student_signup %}
-              <h2>Fellow applications are open until {{ site.data.dates[3].date }}.</h2>
+              <h2>Fellow applications are open until {{ site.data.dates.dates[3].date }}.</h2>
               <a href="{{ site.student_app_link }}" class="btn btn-ghost-primary">Apply now</a>
             {% elsif site.fellowship.stage.student_review %}
               <h2>Thank you!</h2>

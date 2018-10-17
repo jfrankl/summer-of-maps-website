@@ -26,7 +26,7 @@ blogs: # bullet list of blogs
   - title: "Kriging: Spatial Interpolation in Desktop GIS"
     link: "https://www.azavea.com/blog/2016/09/12/kriging-spatial-interpolation-desktop-gis/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2016-american-red-cross-featured.jpg"
 

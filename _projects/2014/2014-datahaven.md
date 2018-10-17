@@ -18,7 +18,7 @@ blogs: # bullet list of blogs
   - title: "Summer of Maps: Daytime Population Estimation and its Effect on Risk Terrain Modeling of Crime"
     link: "https://www.azavea.com/blog/2014/09/16/summer-of-maps-daytime-population-estimation-and-its-effect-on-risk-terrain-modeling-of-crime/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2014-datahaven-featured.jpg"
 

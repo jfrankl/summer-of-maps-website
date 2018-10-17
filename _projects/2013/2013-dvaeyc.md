@@ -26,7 +26,7 @@ blogs: # bullet list of blogs
   - title: "Summer of Maps: Using Raster Analysis in ArcMap to Create a Normalized Weighted Risk Index"
     link: "https://www.azavea.com/blog/2013/09/12/summer-of-maps-using-raster-analysis-in-arcmap-to-create-a-normalized-weighted-risk-index/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2013-dvaeyc-featured.jpg"
 

@@ -21,7 +21,7 @@ blogs: # bullet list of blogs
   - title: "How to Create An Atlas-Style Map with Many Layers in ArcGIS"
     link: "https://www.azavea.com/blog/2015/09/04/how-to-create-an-atlas-style-map-with-many-layers-in-arcgis/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2015-public-laboratory-for-open-technology-and-science-featured.jpg"
 

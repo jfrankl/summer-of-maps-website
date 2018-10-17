@@ -15,23 +15,23 @@
       <div class="column-6">
         <div class="carousel about-carousel">
           <div class="slide">
-            <img src="assets/images/photos/fellows.jpg" alt="">
+            <img src="assets/images/fellows.jpg" alt="">
           </div>
           <div class="slide">
-            <img src="assets/images/photos/fellow-working.jpg" alt="">
+            <img src="assets/images/fellow-working.jpg" alt="">
           </div>
           <div class="slide">
-            <img src="assets/images/photos/fellows-at-desk.jpg" alt="">
+            <img src="assets/images/fellows-at-desk.jpg" alt="">
           </div>
           <div class="slide">
-            <img src="assets/images/photos/fellow-presenting.jpg" alt="">
+            <img src="assets/images/fellow-presenting.jpg" alt="">
           </div>
         </div>
       </div>
       <div class="column-6">
         <h3>Important dates</h3>
         <ul>
-          {% for date in site.data.dates %}
+          {% for date in site.data.dates.dates %}
             <li><strong>{{ date.date }}:</strong> {{ date.description }}</li>
           {% endfor %}
         </ul>

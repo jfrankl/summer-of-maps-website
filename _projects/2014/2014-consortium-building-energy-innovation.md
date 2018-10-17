@@ -18,7 +18,7 @@ blogs: # bullet list of blogs
   - title: "Summer of Maps: A Spatial Tale of Five Cities"
     link: "https://www.azavea.com/blog/2014/09/09/summer-of-maps-a-spatial-tale-of-five-cities/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2014-consortium-building-energy-innovation-featured.jpg"
 

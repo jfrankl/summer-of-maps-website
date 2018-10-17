@@ -18,7 +18,7 @@ blogs: # bullet list of blogs
   - title: "Emerging Hot Spot Analysis: Finding Patterns over Space and Time"
     link: "https://www.azavea.com/blog/2017/08/15/emerging-hot-spot-spatial-statistics/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.jpg of the images below
 featured_image: "2017-world-resources-institute-featured.jpg"
 

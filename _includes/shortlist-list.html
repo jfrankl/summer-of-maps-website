@@ -1,5 +1,5 @@
 {% comment %} Assign shortlist variables {% endcomment %}
-{% assign categories = shortlist | map: 'category' | uniq %} 
+{% assign categories = shortlist | map: 'category' | uniq %}
 {% if shortlist.size == 0 %}
 <div class="project-list empty" id="project-list">
   <div class="empty-message">This year's shortlist hasn't been announced yet. Check back soon.</div>
@@ -16,7 +16,8 @@
       </li>
       {% for category in categories %}
         <li>
-          <a href="#" id="{{ category | slugify }}">{{ site.data.categories[category].name }}</a>
+          {% assign selectedCategory = site.data.categories.categories | where:"slug", category | first %}
+          <a href="#" id="{{ category | slugify }}">{{ selectedCategory.name }}</a>
         </li>
       {% endfor %}
     </ul>
@@ -24,8 +25,8 @@
   {% for project in shortlist %}
 
     {% comment %} Stores project tags in array {% endcomment %}
-    {% assign category = project.category%} 
-    <div class="project" 
+    {% assign category = project.category%}
+    <div class="project"
          data-tag="{{- category | slugify -}}">
       <div class="project-details">
         {% if project.completed %}
@@ -43,7 +44,7 @@
       </div>
       <div class="project-action">
         {% if project.completed %}
-          <a class="btn btn-ghost-primary" 
+          <a class="btn btn-ghost-primary"
              href="/projects/{{ project.completed }}">
               Final Project
           </a>

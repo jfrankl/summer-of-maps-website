@@ -21,7 +21,7 @@ blogs: # bullet list of blogs
   - title: "Creating a Tree Planting Prioritization Model in QGIS"
     link: "http://www.azavea.com/blogs/atlas/2015/09/creating-a-tree-planting-prioritization-model-in-qgis/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2015-the-greening-of-detroit-featured.jpg"
 

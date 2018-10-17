@@ -25,7 +25,7 @@ blogs: # bullet list of blogs
   - title: "Building Interactive D3 Dashboards with CARTO Web Maps"
     link: "https://www.azavea.com/blog/2016/09/26/building-interactive-d3-dashboards-with-carto-web-maps/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2016-transportation-alternatives-featured.jpg"
 

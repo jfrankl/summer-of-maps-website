@@ -25,7 +25,7 @@ blogs: # bullet list of blogs
   - title: "Summer of Maps: How to Manipulate Big Data for Use in ArcMap"
     link: "https://www.azavea.com/blog/2013/10/03/summer-of-maps-how-to-manipulate-big-data-for-use-in-arcmap/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2013-sunlight-foundation-featured.jpg"
 

@@ -18,7 +18,7 @@ blogs: # bullet list of blogs
   - title: "Sankey Diagrams: Six Tools for Visualizing Flow Data"
     link: "https://www.azavea.com/blog/2017/08/09/six-sankey-diagram-tool/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.jpg of the images below
 featured_image: "2017-the-common-market-featured.jpg"
 

@@ -18,7 +18,7 @@ blogs: # bullet list of blogs
   - title: "Interpolating Lead Levels from Tap Water Samples Following the Flint Water Crisis"
     link: "https://www.azavea.com/blog/2017/09/15/interpolating-lead-levels-from-tap-water-samples-following-flint-water-crisis"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.jpg of the images below
 featured_image: "2017-speak-to-your-health-featured.jpg"
 

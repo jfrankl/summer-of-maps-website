@@ -21,7 +21,7 @@ blogs: # bullet list of blogs
   - title: "Mapping Substandard Housing with Philadelphia's License and Inspection Data"
     link: "http://www.azavea.com/blogs/atlas/2015/09/mapping-substandard-housing-with-philadelphias-license-and-inspection-data/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2015-legal-clinic-for-the-disabled-inc-featured.jpg"
 

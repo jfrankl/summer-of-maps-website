@@ -17,7 +17,7 @@ fellow: "angelaSakrison"
 blogs: # bullet list of blogs
 
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.jpg of the images below
 featured_image: "2012-stroud-water-research-center-featured.jpg"
 

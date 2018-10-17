@@ -12,10 +12,10 @@
       <p class="content-blurb">{{ page.mentors.blurb }}</p>
     </div>
     <div class="mentor-list">
-      {% for mentor in site.data.mentors %}
+      {% for mentor in site.data.mentors.mentors %}
         <div class="mentor">
           <a href="{{ mentor.profile }}" class="mentor-image" title="{{ mentor.name }}">
-            <img src="assets/images/mentors/{{ mentor.image }}" class="avatar" alt="{{ mentor.name }}">
+            <img src="assets/images/{{ mentor.image }}" class="avatar" alt="{{ mentor.name }}">
           </a>
           <div class="mentor-name">{{ mentor.name }}</div>
           <a href="{{ mentor.profile }}" class="mentor-profile" title="{{ mentor.name }}" tabindex="-1">

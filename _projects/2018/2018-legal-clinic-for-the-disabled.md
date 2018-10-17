@@ -18,7 +18,7 @@ blogs: # bullet list of blogs
   - title: "Geospatial Analysis of Utility Insecurity in Philadelphia"
     link: "https://www.azavea.com/blog/2018/09/19/understanding-utility-insecurity-the-case-of-the-missing-data/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.jpg of the images below
 featured_image: "2018-legal-clinic-featured.jpg"
 

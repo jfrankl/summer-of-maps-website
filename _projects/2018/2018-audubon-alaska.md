@@ -18,7 +18,7 @@ fellow: "xiaoWu"
 #  - title: ""
 #    link: ""
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.jpg of the images below
 featured_image: "2018-audubon-alaska-featured.jpg"
 

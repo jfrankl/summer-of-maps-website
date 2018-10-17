@@ -31,7 +31,7 @@ Next, login to the Vagrant virtual machine and launch the Jekyll services:
 
 ```bash
 $ vagrant ssh
-vagrant@vagrant-ubuntu-trusty-64:/vagrant$ 
+vagrant@vagrant-ubuntu-trusty-64:/vagrant$
 ```
 ```bash
 vagrant@vagrant-ubuntu-trusty-64:/vagrant$ ./scripts/server
@@ -131,7 +131,7 @@ fellowship:
   year: 2018
   timeframe: Summer 2018
   in_session: true
-  stage: 
+  stage:
     nonprofit_signup: false
     nonprofit_review: false
     student_signup: false
@@ -217,7 +217,7 @@ Each year, non profits submit to the Summer of Maps project shortlist. Historica
 
 ### Starting a new year
 - Create a new folder within `./_project-shortlist/` with its name being the year for the shortlist. For example, if collecting shortlists for Summer of Maps 2019, name the folder `2019`.
-- Clone one of the `page-shortlist-{{year}}.html` files in `_pages/_shortlist-archives-years` of the repo and rename it for the current year. In the case of SoM 2019, you would name it `page-shortlist-2019.html` 
+- Clone one of the `page-shortlist-{{year}}.html` files in `_pages/_shortlist-archives-years` of the repo and rename it for the current year. In the case of SoM 2019, you would name it `page-shortlist-2019.html`
   - Replace every instance of the old year within that file to the current year. Do a find a replace to make sure you don't miss one. VERY IMPORTANT!
   - This creates a unique page where we display only shortlists from that year.
 - Update `./data/categories.yml` to include any new categories, but **DON'T** remove any. The file is used for all years for all time.
@@ -228,7 +228,7 @@ Each shortlist that coincides with a completed project needs to reference that p
 
 ```
 completed: "2017-clean-air-council"
-``` 
+```
 
 ### Creating a shortlist post
 #### Shortlist template:
@@ -238,7 +238,7 @@ At the root of `./_project-shortlist/` there is a `_template.md` file containing
 - `title`: The title of the project. This typically ends up as the client name.
 - `excerpt`: one to two lines shown on the shortlist list view. Not visible on individual post page.
 - `client_website`: URL of client webpage
-- `category`: Should be a valid entry from `./_data/categories.yml` 
+- `category`: Should be a valid entry from `./_data/categories.yml`
 - `seo_description`: Overrides the defaut site-wide description.
 
 #### Naming the file:
@@ -266,9 +266,9 @@ At the root of `./_projects/` there is a `_template.md` file containing the temp
   - All articles have two pairs of key-values pairings. A `title` and a `link`
 - `blogs` *optional*  links to blog posts written about this project by the fellow.
   - All blogs have two pairs of key-values pairings. A `title` and a `link`
-- `featured_image`: the name and filetype of the image, which should be placed inside of `./assets/images/projects/{{year}}/...` where {{year}} is the year of the project
+- `featured_image`: the name and filetype of the image, which should be placed inside of `./assets/images/...` where {{year}} is the year of the project
   - example: `2017-speak-to-your-health-featured.png`
-- `images`: a list of images by name and filetype, which should be placed inside of `./assets/images/projects/{{year}}/...` where {{year}} is the year of the project
+- `images`: a list of images by name and filetype, which should be placed inside of `./assets/images/...` where {{year}} is the year of the project
   - each new image should be prepended with a single dash. `- image-name.jpg`
 
 #### Naming the file:
@@ -306,7 +306,7 @@ sarahGates:
   year: 2017
   image: sarahGates.jpg
 ```
-*A note on the `image` key: the image referenced here should be a photo of the fellow and should be uploaded to `./assets/images/fellows/`*
+*A note on the `image` key: the image referenced here should be a photo of the fellow and should be uploaded to `./assets/images/`*
 
 ### Mentors
 Mentors are typically changing year-to-year, so this file should be updated every year with the current mentors only. This file is used to dynamically display the mentors on the homepage.
@@ -318,7 +318,7 @@ Mentors are typically changing year-to-year, so this file should be updated ever
   profile: https://www.azavea.com/about/teammate/daniel-mcglone/
   image: mcglone.jpg
 ```
-*A note on the `image` key: the image referenced here should be a photo of the fellow and should be uploaded to `./assets/images/mentors/`*
+*A note on the `image` key: the image referenced here should be a photo of the fellow and should be uploaded to `./assets/images/`*
 
 ## Featured projects
 On the `/projects/` page there are 5 project cards listed. These can be overriden by adding a setting to individual project posts. Open the project post markdown which should be featured and, in the front matter, add `featured: "true"`.
@@ -330,7 +330,7 @@ On the `/projects/` page there are 5 project cards listed. These can be override
 Congratulations on another successful year of Summer of Maps! There are only a handful of ending year tasks for the website.
 
 ### Project archive page:
-Clone one of the `page-projects-{{year}}.html` files in `_pages/_project-archives-years` of the repo and rename it for the year that is closing out. In the case of SoM 2018, you would name it `page-shortlist-2018.html` 
+Clone one of the `page-projects-{{year}}.html` files in `_pages/_project-archives-years` of the repo and rename it for the year that is closing out. In the case of SoM 2018, you would name it `page-shortlist-2018.html`
   - Replace every instance of the old year within that file to the current year. Do a find a replace to make sure you don't miss one. VERY IMPORTANT!
   - This creates a unique page where we display only projects from that year.
 - Within the `_config.yml` change `fellowship.in_session = false`. It will look something like:
@@ -347,4 +347,4 @@ Each shortlist that coincides with a completed project needs to reference that p
 
 ```
 completed: "2017-clean-air-council"
-``` 
+```

@@ -18,7 +18,7 @@ blogs: # bullet list of blogs
   - title: "Tool Tips for CartoDB Torque"
     link: "https://www.azavea.com/blog/2015/09/17/tool-tips-for-cartodb-torque/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2015-pennsylvania-horticultural-society-featured.jpg"
 

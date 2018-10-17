@@ -61,8 +61,8 @@
     <strong class="attribute-section-title">Project images</strong>
     <div class="post-images">
       {% for image in page.images %}
-      <a class="post-image" href="/assets/images/projects/{{page.year}}/{{image}}">
-        <img src="/assets/images/projects/{{page.year}}/{{image}}" alt="{{page.title}} image">
+      <a class="post-image" href="/assets/images/{{image}}">
+        <img src="/assets/images/{{image}}" alt="{{page.title}} image">
       </a>
       {% endfor %}
     </div>
@@ -88,12 +88,13 @@
   </div>
   <div class="attribute-section">
     <strong class="attribute-section-title">Category</strong>
-    {{ site.data.categories[page.category].name }}
+    {% assign selectedCategory = site.data.categories.categories | where:"slug", page.category | first %}
+    {{ selectedCategory.name }}
   </div>
   {% if page.completed %}
     <hr>
     <div class="attribute-section">
-        <a class="btn btn-primary" 
+        <a class="btn btn-primary"
            href="/projects/{{ page.completed }}">
             View the final project
         </a>

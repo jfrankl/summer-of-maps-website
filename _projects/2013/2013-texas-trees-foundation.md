@@ -21,7 +21,7 @@ blogs: # bullet list of blogs
   - title: "Summer of Maps: Prioritizing Tree Planting and Preservation in Dallas, TX"
     link: "https://www.azavea.com/blog/2013/09/19/summer-of-maps-prioritizing-tree-planting-and-preservation-in-dallas-tx/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2013-texas-trees-foundation-featured.jpg"
 

@@ -21,7 +21,7 @@ blogs: # bullet list of blogs
   - title: "Summer of Maps: Accounting for Uncertainty with Empirical Bayes Smoothing"
     link: "https://www.azavea.com/blog/2013/09/05/summer-of-maps-accounting-for-uncertainty-with-empirical-bayes-smoothing/"
 
-# upload images to `/assets/images/projects/{{year}}/...`
+# upload images to `/assets/images/...`
 # type only the name.ext of the images below
 featured_image: "2013-greater-philadelphia-coalition-against-hunger-featured.jpg"
 
