@@ -16,6 +16,9 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Page Class", name: "page_class", widget: hidden }
       - { label: "Use Intro Imagery?", name: "use-intro-imagery", widget: boolean }
       - { label: "SEO Description", name: "seo_description", widget: string, required: false }
+      - { label: "Hide C2A", name: "hide-c2a", widget: hidden, required: false }
+      - { label: "Hide Footer", name: "hide-footer", widget: hidden, required: false }
+      - { label: "Partials Location", name: "partials_location", widget: hidden, required: false }
       - label: "Hero"
         name: "hero"
         widget: "object"
@@ -23,6 +26,13 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Above Title", name: "above-title", widget: "string" }
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - label: "Intro"
+        name: "intro"
+        widget: "object"
+        fields:
+          - {label: "Above Title", name: "above-title", widget: "string" }
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "blurb", widget: "string"}
       - { label: "Body", name: "body", widget: markdown, required: false }
   - name: "projects"
     label: "Projects"
