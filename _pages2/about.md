@@ -1,14 +1,16 @@
 ---
+title: About the program
 layout: secondary
-permalink: "/about/"
+permalink: /about/
 page_class: about
 use-intro-imagery: true
-title: "About the program!"
-seo_description: ""
+seo_description: ''
 hero:
-  above-title: "About"
-  title: "The program"
-  subtitle: "Fellowship program for students and mapping service for nonprofits focused on completing challenging, high impact projects."
+  above-title: About
+  subtitle: >-
+    Fellowship program for students and mapping service for nonprofits focused
+    on completing challenging, high impact projects.
+  title: The program
 ---
 ## About the Azavea Summer of Maps program
 The Azavea Summer of Maps program is a 12-week fellowship where geospatial data analysis students work alongside experienced mentors to complete projects for nonprofit organizations.
