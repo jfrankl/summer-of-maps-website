@@ -37,6 +37,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Estabish project collections
 # Estabish project shortlist collections
 collections:
+  pages2:
+    output: true
   projects:
     output: true
     permalink: /:collection/:slug
@@ -65,8 +67,6 @@ defaults:
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
 
 # sass settings
 sass:
