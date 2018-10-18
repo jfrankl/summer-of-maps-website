@@ -19,6 +19,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Hide C2A", name: "hide-c2a", widget: hidden, required: false }
       - { label: "Hide Footer", name: "hide-footer", widget: hidden, required: false }
       - { label: "Partials Location", name: "partials_location", widget: hidden, required: false }
+      - { label: "Body", name: "body", widget: markdown, required: false }
       - label: "Hero"
         name: "hero"
         widget: "object"
@@ -33,7 +34,12 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Above Title", name: "above-title", widget: "string" }
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "blurb", widget: "string"}
-      - { label: "Body", name: "body", widget: markdown, required: false }
+      - label: "Javascript Dependencies"
+        name: js_dependencies
+        widget: list
+        required: false
+        fields:
+          - { label: "Library", name: "library", widget: string, required: true }
   - name: "projects"
     label: "Projects"
     folder: "_projects"

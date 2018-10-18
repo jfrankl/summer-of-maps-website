@@ -1,6 +1,6 @@
 ---
 layout: secondary
-permalink: "/about-old/"
+permalink: "/about/"
 page_class: about
 use-intro-imagery: true
 
