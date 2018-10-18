@@ -11,8 +11,18 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - { label: "Title", name: "title", widget: string }
+      - { label: "Layout", name: "layout", widget: string }
+      - { label: "Permalink", name: "permalink", widget: string }
+      - { label: "Page Class", name: "page_class", widget: string }
       - { label: "Use Intro Imagery?", name: "use-intro-imagery", widget: boolean }
-      - { label: "SEO Description", name: "seo_description", widget: string }
+      - { label: "SEO Description", name: "seo_description", widget: string, required: false }
+      - label: "Hero"
+        name: "hero"
+        widget: "object"
+        fields:
+          - {label: "Above Title", name: "above-title", widget: "string" }
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
   - name: "projects"
     label: "Projects"
     folder: "_projects"
