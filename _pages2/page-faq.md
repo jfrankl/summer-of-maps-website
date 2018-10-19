@@ -16,7 +16,7 @@ intro:
 ---
 {:.faq #faq-0}
 
-#### [\#](#faq-1){:class="anchor-link" title="anchor link"} Does this work?
+#### [\#](#faq-0){:class="anchor-link" title="anchor link"} Does this work?
 
 Let's find out!
 
