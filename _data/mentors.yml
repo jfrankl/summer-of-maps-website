@@ -3,15 +3,11 @@ mentors:
     name: Ross Bernet
     profile: 'https://www.azavea.com/about/teammate/ross-bernet/'
     shortName: Ross
-  - image: ford.jpg
-    name: Dan Ford
-    profile: 'https://www.azavea.com/about/teammate/dan-ford/'
-    shortName: Dan
   - image: needham.jpg
     name: Esther Needham
     profile: 'https://www.azavea.com/about/teammate/esther-needham/'
     shortName: Esther
   - image: mcglone.jpg
-    name: Daniel McGlone
+    name: Dan McGlone
     profile: 'https://www.azavea.com/about/teammate/daniel-mcglone/'
     shortName: Daniel
