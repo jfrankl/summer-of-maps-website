@@ -1,11 +1,18 @@
 ---
+title: Thank you
 layout: default
-permalink: "/thank-you2/"
-title: "Thank you"
+permalink: /thank-you2/
 page_class: page-thanks
-no_hero: true
 hide-c2a: true
 hide-footer: true
+hero:
+  above-title: a
+  subtitle: c
+  title: b
+intro:
+  above-title: d
+  blurb: f
+  title: e
 ---
   <div class="container text-center">
       <h1 class="text-thanks">Thank you</h1>
