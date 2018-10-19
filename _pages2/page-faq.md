@@ -14,11 +14,17 @@ intro:
   blurb: c
   title: b
 ---
-{:.faq #faq-0}
+{:.faq #faq-1}
 
-#### [\#](#faq-0){:class="anchor-link" title="anchor link"} Does this work?
+#### [\#](#faq-1){:class="anchor-link" title="anchor link"} Do I need to move to Philadelphia or can I participate in this fellowship remotely?
 
-Let's find out!
+Fellows are required to work at the Azavea office in Philadelphia during the program. Thus, we highly recommend moving to Philadelphia. Applicants that live outside the Philadelphia region will be eligible for assistance with relocation expenses on a discretionary basis. There may be opportunities to do field work or travel, but this is project-based and not guaranteed.
+
+{:.faq #faq-1}
+
+#### [\#](#faq-1){:class="anchor-link" title="anchor link"} Do I need to move to Philadelphia or can I participate in this fellowship remotely?
+
+Fellows are required to work at the Azavea office in Philadelphia during the program. Thus, we highly recommend moving to Philadelphia. Applicants that live outside the Philadelphia region will be eligible for assistance with relocation expenses on a discretionary basis. There may be opportunities to do field work or travel, but this is project-based and not guaranteed.
 
 {:.faq #faq-1}
 
